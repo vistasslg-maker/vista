@@ -1,0 +1,107 @@
+/* ==========================================================================
+   RAMDHURA VISTA — DESIGN TOKENS & SYSTEM VARIABLES
+   ========================================================================== */
+
+:root {
+  /* --- Color Palette (Natural, Warm Mountain Tones) --- */
+  --color-forest-deep: #163323;   /* Deep Himalayan cedar/pine */
+  --color-forest-mid: #274E37;    /* Mountain moss & foliage */
+  --color-forest-soft: #EDF3EE;   /* Very soft pine tint for subtle backgrounds */
+  --color-cream: #F8F5EE;         /* Warm natural unbleached parchment/linen */
+  --color-offwhite: #FDFAF6;      /* Off-white page background */
+  --color-earth: #8C6848;         /* Mountain clay & weathered timber */
+  --color-sunlight: #D49024;      /* Sunrise gold on Kanchenjunga peaks */
+  --color-sunlight-hover: #BE7F1B;
+  --color-ink: #18201B;           /* Deep charcoal-pine for maximum readability */
+  --color-ink-light: #2E3832;
+  --color-muted: #5E6D63;         /* Soft slate-moss for secondary body/subtitles */
+  --color-border: #E4DDD2;        /* Restrained warm border */
+  --color-border-dark: #C9BEB0;
+
+  /* --- Typography --- */
+  --font-display: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Fluid Type Scale with clamp() */
+  --text-xs: clamp(0.75rem, 0.72rem + 0.15vw, 0.8125rem);       /* 12px -> 13px */
+  --text-sm: clamp(0.875rem, 0.84rem + 0.2vw, 0.9375rem);       /* 14px -> 15px */
+  --text-base: clamp(1rem, 0.96rem + 0.25vw, 1.0625rem);         /* 16px -> 17px */
+  --text-lg: clamp(1.125rem, 1.06rem + 0.35vw, 1.25rem);         /* 18px -> 20px */
+  --text-xl: clamp(1.3125rem, 1.2rem + 0.6vw, 1.5rem);          /* 21px -> 24px */
+  --text-2xl: clamp(1.625rem, 1.45rem + 1vw, 2rem);             /* 26px -> 32px */
+  --text-3xl: clamp(1.75rem, 1.5rem + 1.2vw, 2.5rem);           /* 28px -> 40px */
+  --text-4xl: clamp(2rem, 1.7rem + 1.6vw, 3rem);               /* 32px -> 48px */
+  --text-5xl: clamp(2.25rem, 1.85rem + 2.2vw, 3.75rem);         /* 36px -> 60px */
+
+  /* --- Spacing Scale --- */
+  --space-1: 0.25rem;  /* 4px */
+  --space-2: 0.5rem;   /* 8px */
+  --space-3: 0.75rem;  /* 12px */
+  --space-4: 1rem;     /* 16px */
+  --space-5: 1.25rem;  /* 20px */
+  --space-6: 1.5rem;   /* 24px */
+  --space-8: 2rem;     /* 32px */
+  --space-10: 2.5rem;  /* 40px */
+  --space-12: 3rem;    /* 48px */
+  --space-16: 4rem;    /* 64px */
+  --space-20: 5rem;    /* 80px */
+  --space-24: 6rem;    /* 96px */
+
+  /* --- Restrained Border Radii --- */
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-full: 9999px;
+
+  /* --- Minimal Restrained Shadows --- */
+  --shadow-subtle: 0 1px 3px rgba(22, 51, 35, 0.04), 0 1px 2px rgba(22, 51, 35, 0.02);
+  --shadow-card: 0 4px 16px rgba(22, 51, 35, 0.06);
+
+  /* --- Transitions & Timing --- */
+  --transition-fast: 150ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-smooth: 280ms cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-slow: 450ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Base resets & document settings */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  background-color: var(--color-offwhite);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  background-color: var(--color-offwhite);
+}
+
+/* Accessibility: Clear visible focus styles */
+:focus-visible {
+  outline: 2px solid var(--color-forest-deep);
+  outline-offset: 3px;
+  border-radius: var(--radius-sm);
+}
+
+/* Motion Preferences: Respect prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

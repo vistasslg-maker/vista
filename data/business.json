@@ -1,0 +1,164 @@
+{
+  "$schema": "./business.schema.json",
+  "brand": {
+    "propertyName": "VISTAS",
+    "tagline": "",
+    "brandLine": "Stay • Experience • Belong",
+    "hospitalityLine": "Come as a guest, leave feeling like family.",
+    "hierarchy": {
+      "umbrella": "VISTAS",
+      "hospitalityBrand": "VISTA",
+      "property": "VISTAS",
+      "displayRule": "The site promotes VISTAS."
+    },
+    "logo": {
+      "path": "/brand/vistas-logo.jpg",
+      "_comment": "Supplied by owner: authentic VISTAS emblem logo with mountains, sun, and pine trees"
+    },
+    "favicon": {
+      "path": "/brand/vistas-logo.jpg",
+      "_comment": "Supplied by owner: authentic VISTAS emblem logo"
+    },
+    "colors": {
+      "primary": null,
+      "secondary": null,
+      "accent": null,
+      "neutral": null,
+      "_comment": "MISSING: Official brand color palette hex codes from brochure or style guide"
+    },
+    "typography": {
+      "headingFont": null,
+      "bodyFont": null,
+      "_comment": "MISSING: Official typography/font specifications"
+    }
+  },
+  "contact": {
+    "phones": [
+      "+91 94758 28935",
+      "+91 70018 96856"
+    ],
+    "whatsapp": null,
+    "_whatsapp_comment": "MISSING: Dedicated WhatsApp contact number for guest queries/booking",
+    "email": "vistas.slg@gmail.com",
+    "social": {
+      "instagram": "https://www.instagram.com/vistas_the_way_of_life",
+      "facebook": "https://www.facebook.com/profile.php?id=61594482538575&sk=about",
+      "youtube": null,
+      "_youtube_comment": "MISSING: Official YouTube channel link"
+    }
+  },
+  "location": {
+    "village": "Ramdhura",
+    "area": "Barmaik",
+    "district": "Kalimpong",
+    "state": "West Bengal",
+    "country": "India",
+    "pinCode": null,
+    "_pinCode_comment": "MISSING: Postal PIN code for Ramdhura/Barmaik",
+    "exactAddress": null,
+    "_exactAddress_comment": "MISSING: Exact physical/postal street address and landmark",
+    "coordinates": {
+      "latitude": null,
+      "longitude": null,
+      "_comment": "MISSING: Precise GPS coordinates (latitude, longitude)"
+    },
+    "map": {
+      "googleMapsUrl": null,
+      "googleMapsEmbedUrl": null,
+      "_comment": "MISSING: Verified Google Maps business listing / embed link"
+    },
+    "environment": [
+      "quiet mountain village",
+      "greenery",
+      "fresh air",
+      "open skies",
+      "mountain landscapes",
+      "pine forests",
+      "mist/clouds",
+      "quiet mornings",
+      "unhurried afternoons",
+      "peaceful evenings"
+    ],
+    "views": [
+      "360° view of Kanchenjunga is a short walk away",
+      "Teesta River views",
+      "Mountain landscapes",
+      "Open skies",
+      "Clouds/mist"
+    ]
+  },
+  "amenitiesAndServices": [
+    "comfortable well-maintained rooms",
+    "24-hour electricity",
+    "hot water",
+    "Wi-Fi",
+    "parking",
+    "home-style/home-cooked food",
+    "four meals a day",
+    "barbecue on request",
+    "sightseeing arrangements",
+    "transport arrangements",
+    "NJP-to-NJP trip planning"
+  ],
+  "dining": {
+    "foodType": "home-style/home-cooked food",
+    "mealPlan": "four meals a day",
+    "barbecue": "on request",
+    "menuDetails": null,
+    "_menuDetails_comment": "MISSING: Specific menu items, daily meal schedules (breakfast, lunch, evening tea/snacks, dinner), dietary options",
+    "diningTimings": null,
+    "_diningTimings_comment": "MISSING: Exact meal timings"
+  },
+  "rooms": {
+    "roomTypes": null,
+    "_roomTypes_comment": "MISSING: Room categories, names, bed configurations, total room count, and floor plans",
+    "pricing": null,
+    "_pricing_comment": "MISSING: Per-room or per-person tariff structure (EP, CP, or AP plan with 4 meals)",
+    "roomCapacities": null,
+    "_roomCapacities_comment": "MISSING: Occupancy rules per room (max adults, children, extra mattress availability)",
+    "roomAmenities": null,
+    "_roomAmenities_comment": "MISSING: Detailed room-specific amenities (balcony, view, kettle, toiletries, etc.)"
+  },
+  "booking": {
+    "bookingProcess": null,
+    "_bookingProcess_comment": "MISSING: Step-by-step booking procedure (phone call, WhatsApp, advance payment percentage)",
+    "paymentMethods": null,
+    "_paymentMethods_comment": "MISSING: Accepted payment modes (UPI, Bank Transfer, Cash, Cards)",
+    "checkInTime": null,
+    "_checkInTime_comment": "MISSING: Official check-in time",
+    "checkOutTime": null,
+    "_checkOutTime_comment": "MISSING: Official check-out time",
+    "cancellationPolicy": null,
+    "_cancellationPolicy_comment": "MISSING: Cancellation and refund policy",
+    "houseRules": null,
+    "_houseRules_comment": "MISSING: House rules (smoking policy, pet policy, quiet hours, alcohol policy)"
+  },
+  "travelAndConnectivity": {
+    "njpToNjpTripPlanning": true,
+    "transportArrangements": true,
+    "nearestTransit": {
+      "nearestRailwayStation": null,
+      "_nearestRailwayStation_comment": "MISSING: Distance and travel time from NJP (New Jalpaiguri) / Siliguri",
+      "nearestAirport": null,
+      "_nearestAirport_comment": "MISSING: Distance and travel time from Bagdogra (IXB)",
+      "nearestTown": null,
+      "_nearestTown_comment": "MISSING: Distance and travel time from Kalimpong town"
+    },
+    "drivingDirections": null,
+    "_drivingDirections_comment": "MISSING: Road condition and recommended route directions"
+  },
+  "nearbyAttractions": [
+    { "name": "Ramdhura View Point" },
+    { "name": "Delo" },
+    { "name": "Munsong View Point" },
+    { "name": "Hanuman Tok" },
+    { "name": "Jalsa Bungalow" },
+    { "name": "Barmeik Shiv Mandir" },
+    { "name": "Cactus Garden" },
+    { "name": "Science Centre" },
+    { "name": "Morgan House" },
+    { "name": "Algarah View Point" },
+    { "name": "Lava" },
+    { "name": "Lolegaon" }
+  ]
+}

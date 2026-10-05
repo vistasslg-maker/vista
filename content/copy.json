@@ -1,0 +1,216 @@
+{
+  "page1_home": {
+    "slug": "/",
+    "title": "VISTAS — Ramdhura, Kalimpong",
+    "hero": {
+      "badge": "Ramdhura, Barmaik, Kalimpong",
+      "headline": "VISTAS",
+      "tagline": "",
+      "brandLine": "Stay • Experience • Belong",
+      "hospitalityLine": "Come as a guest, leave feeling like family.",
+      "primaryCTA": {
+        "label": "Call to Book",
+        "href": "tel:9475828935"
+      },
+      "secondaryCTA": {
+        "label": "View Stay & Discover",
+        "href": "/stay-and-discover"
+      },
+      "heroImage": null,
+      "_heroImage_comment": "MISSING: Hero photograph of Ramdhura Vista property or surrounding pine forest / mountain scenery"
+    },
+    "atmosphereOverview": {
+      "title": "A Quiet Himalayan Refuge",
+      "description": "Nestled in the quiet mountain village of Ramdhura, Barmaik, Kalimpong, surrounded by pine forests, open skies, and fresh mountain air.",
+      "highlights": [
+        "Quiet mountain village setting",
+        "Surrounded by greenery and pine forests",
+        "Fresh mountain air and open skies",
+        "Mountain landscapes and drifting mist/clouds",
+        "Quiet mornings, unhurried afternoons, peaceful evenings"
+      ]
+    },
+    "signatureView": {
+      "title": "Views That Take Your Breath Away",
+      "kanchenjunga": "A 360° view of Kanchenjunga is a short walk away.",
+      "riverAndMountains": "Vistas of the Teesta River flowing through the valley, surrounded by mountain landscapes and open skies."
+    },
+    "stayAndDiscoverTeaser": {
+      "title": "Comfort, Care & Wholesome Dining",
+      "summary": "Enjoy comfortable well-maintained rooms, 24-hour electricity, hot water, Wi-Fi, parking, and four wholesome home-cooked meals every day.",
+      "cta": {
+        "label": "Explore Stay & Discover",
+        "href": "/stay-and-discover"
+      }
+    },
+    "ctaBanner": {
+      "headline": "Come as a guest, leave feeling like family.",
+      "primaryCTA": {
+        "label": "Call (94758 28935)",
+        "href": "tel:9475828935"
+      },
+      "secondaryCTA": {
+        "label": "Contact & Booking",
+        "href": "/contact"
+      }
+    }
+  },
+  "page2_about": {
+    "slug": "/about",
+    "title": "About VISTAS — Our Village & Hospitality",
+    "hero": {
+      "headline": "Life in Ramdhura",
+      "subheadline": "A peaceful mountain village where time slows down"
+    },
+    "villageLife": {
+      "title": "The Village of Ramdhura",
+      "location": "Ramdhura, Barmaik, Kalimpong, West Bengal, India",
+      "description": "Ramdhura is a quiet mountain village perched above the Teesta River valley. Here, life moves to the gentle rhythm of quiet mornings, unhurried afternoons, and peaceful evenings enveloped in pine forests and mountain mist.",
+      "environment": [
+        "Quiet mountain village away from crowded tourist centers",
+        "Lush pine forests and verdant greenery",
+        "Crisp, clean mountain air and wide open skies",
+        "Dramatic mountain landscapes and rolling clouds"
+      ]
+    },
+    "hospitalityPhilosophy": {
+      "brandLine": "Stay • Experience • Belong",
+      "hospitalityLine": "Come as a guest, leave feeling like family.",
+      "coreValues": "Warm homestyle hospitality where guests are welcomed into an authentic mountain home with caring hosts, wholesome meals, and personal attention."
+    },
+    "brandTiers": {
+      "title": "Brand Lineage",
+      "text": "VISTAS is a quiet mountain homestay in Ramdhura, Kalimpong.",
+      "note": "The site promotes VISTAS."
+    },
+    "hostStory": {
+      "story": null,
+      "_story_comment": "MISSING: Approved host family background story, year established, or personal greeting"
+    },
+    "cta": {
+      "label": "See Stay & Discover",
+      "href": "/stay-and-discover"
+    }
+  },
+  "page3_stay_and_discover": {
+    "slug": "/stay-and-discover",
+    "title": "Stay & Discover — Everything We Provide at VISTAS",
+    "inPageSectionNav": [
+      { "id": "stay", "label": "Stay", "hash": "#stay" },
+      { "id": "dining-experiences", "label": "Dining & Experiences", "hash": "#dining-experiences" },
+      { "id": "explore", "label": "Explore Ramdhura", "hash": "#explore" },
+      { "id": "gallery", "label": "Gallery", "hash": "#gallery" },
+      { "id": "getting-here", "label": "Getting Here", "hash": "#getting-here" }
+    ],
+    "section_stay": {
+      "id": "stay",
+      "title": "Stay & Comfortable Rooms",
+      "overview": "Comfortable, well-maintained rooms offering peaceful mountain rest.",
+      "verifiedInclusions": [
+        "Comfortable well-maintained rooms",
+        "24-hour electricity",
+        "Hot water",
+        "Wi-Fi",
+        "Parking"
+      ],
+      "roomInventory": null,
+      "_roomInventory_comment": "MISSING: Specific room names, categories, capacities, bed types, and tariffs (AP plan vs per-room)",
+      "cta": {
+        "label": "Call to Check Availability",
+        "href": "tel:9475828935"
+      }
+    },
+    "section_diningExperiences": {
+      "id": "dining-experiences",
+      "title": "Dining & Mountain Experiences",
+      "dining": {
+        "foodType": "Home-style / home-cooked food",
+        "mealPlan": "Four meals a day included",
+        "barbecue": "Barbecue on request",
+        "mealDetails": null,
+        "_mealDetails_comment": "MISSING: Meal timings (breakfast, lunch, snacks, dinner) and sample menu items"
+      },
+      "experiences": {
+        "kanchenjungaView": "A 360° view of Kanchenjunga is a short walk away.",
+        "teestaRiverViews": "Panoramic vistas of the Teesta River and surrounding mountain landscapes.",
+        "nature": "Pine forest walks, quiet mornings, misty afternoons, and clear starry night skies."
+      }
+    },
+    "section_explore": {
+      "id": "explore",
+      "title": "Explore Ramdhura & Surrounds",
+      "overview": "Conveniently located to explore the scenic attractions of Kalimpong district. Sightseeing arrangements are provided directly by the homestay.",
+      "attractions": [
+        "Ramdhura View Point",
+        "Delo",
+        "Munsong View Point",
+        "Hanuman Tok",
+        "Jalsa Bungalow",
+        "Barmeik Shiv Mandir",
+        "Cactus Garden",
+        "Science Centre",
+        "Morgan House",
+        "Algarah View Point",
+        "Lava",
+        "Lolegaon"
+      ],
+      "sightseeingServices": "Sightseeing arrangements and custom tour planning are handled on request."
+    },
+    "section_gallery": {
+      "id": "gallery",
+      "title": "Photo Showcase",
+      "status": "Awaiting authentic photographs",
+      "_comment": "MISSING: Real photos of property exterior, rooms, bathrooms, food spread, views, and surroundings. No stock or AI images permitted."
+    },
+    "section_gettingHere": {
+      "id": "getting-here",
+      "title": "Getting Here & Travel Assistance",
+      "location": "Ramdhura, Barmaik, Kalimpong, West Bengal, India",
+      "tripPlanning": "Complete NJP-to-NJP trip planning and local transport arrangements provided.",
+      "transportArrangements": "Pickups, drop-offs, and transfers arranged on request.",
+      "transitDistances": null,
+      "_transitDistances_comment": "MISSING: Exact road distances and driving times from NJP, Bagdogra (IXB), and Kalimpong town",
+      "mapEmbedUrl": null,
+      "_mapEmbedUrl_comment": "MISSING: Verified Google Maps listing or embed URL"
+    }
+  },
+  "page4_contactBooking": {
+    "slug": "/contact",
+    "title": "Contact & Booking — VISTAS",
+    "headline": "Plan Your Stay with Us",
+    "hospitalityLine": "Come as a guest, leave feeling like family.",
+    "phoneNumbers": [
+      { "number": "94758 28935", "display": "+91 94758 28935", "isPrimary": true },
+      { "number": "70018 96856", "display": "+91 70018 96856", "isPrimary": false }
+    ],
+    "address": {
+      "village": "Ramdhura",
+      "locality": "Barmaik",
+      "district": "Kalimpong",
+      "state": "West Bengal",
+      "country": "India",
+      "fullStreetAddress": null,
+      "_fullStreetAddress_comment": "MISSING: Exact street address and postal PIN code"
+    },
+    "email": null,
+    "_email_comment": "MISSING: Official email address",
+    "whatsapp": null,
+    "_whatsapp_comment": "MISSING: Preferred WhatsApp number for instant messages",
+    "bookingProcess": {
+      "instruction": "For reservations and instant date checks, call directly.",
+      "step1": "Call or message 94758 28935 / 70018 96856 with your planned travel dates and number of guests.",
+      "step2": "Receive confirmation of room availability, tariff, and meal inclusions.",
+      "step3": "Optional: Request NJP-to-NJP pickup/drop or sightseeing planning."
+    }
+  },
+  "page_404": {
+    "slug": "/404",
+    "title": "Page Not Found — VISTAS",
+    "headline": "The trail seems to have ended here.",
+    "description": "The page you're looking for doesn't exist or has moved. Return to the comfort of our homestay.",
+    "cta": {
+      "label": "Back to Home",
+      "href": "/"
+    }
+  }
+}
